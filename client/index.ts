@@ -20,7 +20,7 @@ class CayoPerico {
         if (nearIsland == this._nearIsland) return;
         this._nearIsland = nearIsland;
 
-        natives.setIslandHopperEnabled('HeistIsland', nearIsland);
+        natives.setIslandEnabled('HeistIsland', nearIsland);
         natives.setScenarioGroupEnabled('Heist_Island_Peds', nearIsland);
         natives.setAudioFlag('PlayerOnDLCHeist4Island', nearIsland);
         natives.setAmbientZoneListStatePersistent('AZL_DLC_Hei4_Island_Zones', false, nearIsland);
