@@ -11,6 +11,7 @@ class CayoPerico {
 
         alt.setInterval(this.checkRange.bind(this), 2_000);
         this.checkRange();
+        alt.loadDefaultIpls();
     }
 
     private checkRange() {
